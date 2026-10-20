@@ -1,0 +1,216 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Những tấm thiệp yêu thương 💗</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  font-family:"Segoe UI",sans-serif;color:white;
+  background:radial-gradient(ellipse at top,#522657,#17132f 55%,#080b20);
+  min-height:100vh;overflow-x:hidden
+}
+#sky{position:fixed;inset:0;overflow:hidden;pointer-events:none;z-index:0}
+.star{position:absolute;width:3px;height:3px;background:white;border-radius:50%;
+  box-shadow:0 0 8px white;animation:twinkle 2s infinite alternate}
+@keyframes twinkle{from{opacity:.2;transform:scale(.6)}to{opacity:1;transform:scale(1.5)}}
+.planet{position:absolute;border-radius:50%;animation:float 7s ease-in-out infinite}
+.p1{width:85px;height:85px;top:7%;left:5%;
+background:radial-gradient(circle at 30% 25%,#fff0ca,#ff83c1 45%,#7c3a9c)}
+.p2{width:55px;height:55px;top:15%;right:8%;
+background:radial-gradient(circle at 30% 25%,#fff2cf,#ff9dbd,#7542a2)}
+.p2:after{content:"";position:absolute;width:90px;height:20px;
+border:3px solid #ffc6e7;border-radius:50%;top:18px;left:-18px;transform:rotate(-25deg)}
+@keyframes float{50%{transform:translateY(-18px) rotate(10deg)}}
+.shooting{position:absolute;width:100px;height:2px;
+background:linear-gradient(90deg,white,#ff9edb,transparent);
+transform:rotate(-35deg);animation:meteor 5s linear infinite;opacity:0}
+@keyframes meteor{
+  0%{transform:translate(0,0) rotate(-35deg);opacity:0}
+  8%{opacity:1}
+  30%{transform:translate(-300px,220px) rotate(-35deg);opacity:0}
+  100%{opacity:0}
+}
+header{position:relative;z-index:1;text-align:center;padding:50px 18px 28px}
+header .small{letter-spacing:4px;color:#ffd3e9;font-size:12px}
+h1{font-family:Georgia,serif;font-size:clamp(30px,6vw,52px);
+background:linear-gradient(90deg,#fff,#ff91c9,#ffe5ad);
+color:transparent;background-clip:text;-webkit-background-clip:text;
+margin:15px 0;filter:drop-shadow(0 0 14px #ff7dc855)}
+header p{color:#fbdced;line-height:1.8}
+.cards{
+  position:relative;z-index:1;max-width:1100px;margin:auto;
+  padding:10px 20px 55px;display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(min(100%,290px),1fr));
+  gap:28px
+}
+.card{
+  position:relative;overflow:hidden;text-align:center;color:#84345e;
+  padding:30px 23px;border-radius:25px;
+  border:1px solid #ffffffa0;
+  background:linear-gradient(145deg,#fff8fc,#ffd8e9 60%,#ffe9f2);
+  box-shadow:0 15px 45px #0004,0 0 25px #ff9bd733;
+  opacity:0;transform:translateY(35px) scale(.96);
+  animation:appear 1s ease forwards;
+}
+.card:nth-child(2){animation-delay:.7s}
+.card:nth-child(3){animation-delay:1.4s}
+.card:nth-child(4){animation-delay:2.1s}
+@keyframes appear{to{opacity:1;transform:translateY(0) scale(1)}}
+.card:before,.card:after{position:absolute;color:#df75a8;font-size:28px}
+.card:before{content:"✧";top:12px;left:16px}
+.card:after{content:"✧";bottom:10px;right:16px}
+.flower{font-size:57px;display:block;
+animation:sway 3s ease-in-out infinite}
+@keyframes sway{0%,100%{transform:rotate(-7deg)}50%{transform:rotate(7deg)}}
+.tag{font-size:11px;letter-spacing:3px;color:#c04c85;margin:12px 0}
+h2{font-family:Georgia,serif;font-size:29px;color:#c02e79;margin:8px 0 15px}
+.divider{color:#d85b9c;letter-spacing:6px;margin:15px 0}
+.message{font-size:15px;line-height:1.9}
+.highlight{color:#c02e79;font-weight:bold}
+.signature{font-family:Georgia,serif;font-style:italic;font-size:19px;
+color:#c03e80;margin-top:20px}
+.bottom{font-size:22px;margin-top:20px}
+footer{position:relative;z-index:1;text-align:center;
+padding:0 15px 35px;color:#ffd6ea;font-size:12px;letter-spacing:2px}
+.heart{position:fixed;bottom:-30px;pointer-events:none;z-index:2;
+animation:rise 8s linear forwards}
+@keyframes rise{to{transform:translateY(-110vh) rotate(40deg);opacity:0}}
+@media(prefers-reduced-motion:reduce){
+  *,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important}
+}
+</style>
+</head>
+<body>
+
+<div id="sky">
+  <div class="planet p1"></div>
+  <div class="planet p2"></div>
+</div>
+
+<header>
+  <div class="small">A UNIVERSE FULL OF LOVE ✨</div>
+  <h1>Gửi Ngàn Yêu Thương</h1>
+  <p>Mỗi người một tấm thiệp – mỗi tấm thiệp là một lời yêu thương. 💗<br>
+  Mong những vì sao mang hạnh phúc đến với gia đình mình!</p>
+</header>
+
+<main class="cards">
+
+  <!-- THIỆP RIÊNG CHO BÀ NGOẠI -->
+  <section class="card">
+    <span class="flower">💐</span>
+    <div class="tag">MY BELOVED GRANDMA</div>
+    <h2>Kính Tặng Bà Ngoại</h2>
+    <div class="divider">♡ ✿ ♡</div>
+    <p class="message">
+      Bà ngoại yêu quý của con!<br><br>
+      Cháu chúc <span class="highlight">bà luôn mạnh khỏe,
+      bình an và vui vẻ mỗi ngày</span>.
+      Mong bà luôn sống thật lâu bên con cháu,
+      luôn nở nụ cười hiền hậu và đón nhận
+      thật nhiều niềm vui trong cuộc sống.<br><br>
+      Cảm ơn bà vì tình yêu thương ấm áp
+      mà bà luôn dành cho cả gia đình.
+      Với cháu, bà mãi là bông hoa đẹp nhất! 🌷
+    </p>
+    <div class="signature">Cháu yêu bà rất nhiều ! 💗</div>
+    <div class="bottom">🌸 🌹 🌸</div>
+  </section>
+
+  <!-- THIỆP RIÊNG CHO MỢ -->
+  <section class="card">
+    <span class="flower">🌹</span>
+    <div class="tag">WITH LOVE AND GRATITUDE</div>
+    <h2>Gửi Mợ Thân Yêu</h2>
+    <div class="divider">♡ ✿ ♡</div>
+    <p class="message">
+      Mợ yêu quý!<br><br>
+      Chúc mợ luôn <span class="highlight">xinh đẹp,
+      rạng rỡ, hạnh phúc và gặp thật nhiều may mắn</span>.
+      Mong mọi dự định của mợ đều thuận lợi,
+      công việc suôn sẻ và mỗi ngày đều tràn
+      ngập tiếng cười.<br><br>
+      Chúc mợ luôn được yêu thương, trân trọng
+      và có thật nhiều khoảnh khắc ngọt ngào
+      bên những người thân yêu.
+    </p>
+    <div class="signature">Chúc mợ luôn hạnh phúc! 💕</div>
+    <div class="bottom">🌷 💐 🌷</div>
+  </section>
+
+  <!-- THIỆP RIÊNG CHO EM THỨ NHẤT -->
+  <section class="card">
+    <span class="flower">🌸</span>
+    <div class="tag">TO MY SWEET SISTER</div>
+    <h2>Gửi Em Yêu</h2>
+    <div class="divider">♡ ✿ ♡</div>
+    <p class="message">
+      những đứa em đáng yêu của anh!<br><br>
+      Chúc em luôn <span class="highlight">vui vẻ,
+      tự tin, học tập thật tốt và ngày càng trưởng thành</span>.
+      Mong em luôn giữ được nụ cười tươi,
+      có thật nhiều bạn tốt và can đảm
+      theo đuổi những ước mơ của mình.<br><br>
+      Dù sau này lớn lên, hãy luôn nhớ rằng
+      gia đình là nơi yêu thương em vô điều kiện
+      và luôn sẵn sàng ở bên em.
+    </p>
+    <div class="signature">Mãi là em bé đáng yêu nhé! 💖</div>
+    <div class="bottom">🩷 🌼 🩷</div>
+  </section>
+
+</main>
+
+<footer>
+  MADE WITH LOVE · FOR MY BELOVED FAMILY · 💗
+</footer>
+
+<script>
+// TẠO SAO TRÊN BẦU TRỜI
+const sky=document.getElementById("sky");
+
+for(let i=0;i<180;i++){
+  const s=document.createElement("span");
+  s.className="star";
+  const size=1+Math.random()*3;
+  s.style.width=size+"px";
+  s.style.height=size+"px";
+  s.style.left=Math.random()*100+"%";
+  s.style.top=Math.random()*100+"%";
+  s.style.animationDuration=(1+Math.random()*4)+"s";
+  s.style.animationDelay=Math.random()*4+"s";
+  sky.appendChild(s);
+}
+
+// SAO BĂNG
+for(let i=0;i<6;i++){
+  const m=document.createElement("div");
+  m.className="shooting";
+  m.style.left=(20+Math.random()*90)+"%";
+  m.style.top=(Math.random()*45)+"%";
+  m.style.animationDelay=(Math.random()*12)+"s";
+  sky.appendChild(m);
+}
+
+// TRÁI TIM VÀ CÁNH HOA BAY
+const symbols=["💗","🌸","💕","✨","🌷","💖"];
+function makeHeart(){
+  const el=document.createElement("span");
+  el.className="heart";
+  el.textContent=symbols[Math.floor(Math.random()*symbols.length)];
+  el.style.left=Math.random()*100+"vw";
+  el.style.fontSize=(14+Math.random()*18)+"px";
+  const duration=7+Math.random()*6;
+  el.style.animationDuration=duration+"s";
+  document.body.appendChild(el);
+  setTimeout(()=>el.remove(),duration*1000);
+}
+setInterval(makeHeart,500);
+for(let i=0;i<12;i++)setTimeout(makeHeart,i*250);
+</script>
+
+</body>
+</html>
